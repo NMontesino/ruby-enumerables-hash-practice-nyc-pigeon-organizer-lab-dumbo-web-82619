@@ -43,8 +43,13 @@ def nyc_pigeon_organizer(data)
     end
   end
   
-  if new_data[names[i]][:color] || new_data[names[i]][:gender]
-    new_data[names[i]][:color]
+  names.length.times do |i|
+    new_data[names[i]][:color].each do |j|
+      if
+    end
+    new_data[names[i]][:gender].each do |j|
+      
+    end
   end
   
   return new_data
