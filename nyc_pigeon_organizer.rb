@@ -46,12 +46,12 @@ def nyc_pigeon_organizer(data)
   names.length.times do |i|
     new_data[names[i]][:color].each do |j|
       if j == Symbol
-        j = j.to_s
+        j = "#{j}"
       end
     end
     new_data[names[i]][:gender].each do |j|
       if j == Symbol
-        j = j.to_s
+        j = "#{j}"
       end
     end
   end
