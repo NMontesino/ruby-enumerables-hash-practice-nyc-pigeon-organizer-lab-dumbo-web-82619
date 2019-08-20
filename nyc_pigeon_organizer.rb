@@ -43,14 +43,14 @@ def nyc_pigeon_organizer(data)
     end
   end
   
-  # names.length.times do |i|
-  #   new_data[names[i]][:color].map do |j|
-  #     j.to_str
-  #   end
-  #   new_data[names[i]][:gender].map do |j|
-  #     j.to_str
-  #   end
-  # end
+  names.length.times do |i|
+    new_data[names[i]][:color].map do |j|
+      j.to_str
+    end
+    new_data[names[i]][:gender].map do |j|
+      j.to_str
+    end
+  end
   
   return new_data
   
