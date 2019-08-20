@@ -44,7 +44,7 @@ def nyc_pigeon_organizer(data)
   end
   
   if new_data[names[i]][:color] || new_data[names[i]][:gender]
-    new
+    new_data[names[i]][:color]
   end
   
   return new_data
