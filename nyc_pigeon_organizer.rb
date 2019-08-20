@@ -45,10 +45,12 @@ def nyc_pigeon_organizer(data)
   
   names.length.times do |i|
     new_data[names[i]][:color].each do |j|
-      if
+      if 
+      end
     end
     new_data[names[i]][:gender].each do |j|
-      
+      if
+      end
     end
   end
   
