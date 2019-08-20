@@ -37,17 +37,11 @@ def nyc_pigeon_organizer(data)
         
         if data[attributes[i]][values[i][j]].include?(names[k])
           new_data[names[k]][attributes[i]].push(values[i][j])
-          
-          
         end
         
       end
     end
   end
-  
-  # if data[attributes[i]][values[i][j]][k] == names[k]
-  #   new_data[names[k]][attributes[i]].push(data[attributes[i]][values[i][j]])
-  # end
   
   return new_data
   
