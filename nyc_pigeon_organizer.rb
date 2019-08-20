@@ -45,10 +45,10 @@ def nyc_pigeon_organizer(data)
   
   names.length.times do |i|
     new_data[names[i]][:color].map do |j|
-      j = "#{j}"
+      j.to_s
     end
     new_data[names[i]][:gender].map do |j|
-      j = "#{j}"
+      j.to_s
     end
   end
   
